@@ -6,20 +6,17 @@ import 'package:flutter_svg/flutter_svg.dart';
 class BTSvg extends StatelessWidget {
   final String icon;
   final double? size;
-  final Color? color;
 
   const BTSvg({
     super.key,
     required this.icon,
     this.size,
-    this.color,
   });
 
   @override
   Widget build(BuildContext context) {
     return SvgPicture.asset(
       icon,
-      color: color,
       height: size ?? BTSpacings.spacing4x,
       fit: BoxFit.fitHeight,
     );

@@ -1,6 +1,6 @@
 import 'package:bt_designer_system/foundation/colors/bt_colors.dart';
 import 'package:bt_designer_system/foundation/sizes/bt_size.dart';
-import 'package:bt_designer_system/molecules/vr_text.dart';
+import 'package:bt_designer_system/molecules/bt_text.dart';
 import 'package:flutter/material.dart';
 
 class BTButton extends StatelessWidget {
